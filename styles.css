@@ -1,1 +1,115 @@
-/* Write your CSS here! */
+body, html {
+  height: 100%;  
+  margin: 8px;
+  display: block;
+  font: 400 15px/1.8 "lato", sans-serif;
+  color: #777;
+}
+
+.big-image1 {
+  background-image: url("/js-assignment-4-html-me-something-Alejo8835/images/israel.jpg");
+  min-height: 100%;
+  position: relative;
+  opacity: 0.65; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+
+.caption {
+    position:absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align:center;
+    color: #000;
+}
+
+.caption span.border1 {
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+
+.format-text1 {
+   color: #777;
+   background-color: white;
+   text-align: center;
+   padding: 50px 80px;
+   text-align: justify;
+}
+
+.big-image2 {
+   background-image: url("/js-assignment-4-html-me-something-Alejo8835/images/Tel\ Aviv.jpg");
+   min-height: 400px;
+   position: relative;
+   opacity: 0.65; 
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;   
+}
+
+.caption span.border2 {
+   background-color: transparent;
+   font-size: 25px;
+   color: #f9f7f7;
+ }
+
+.format-text2 {
+    color: #ddd;
+    background-color: #282E34;
+    text-align: center;
+    padding: 50px 80px;
+    text-align: justify;
+}
+
+.big-image3 {
+    background-image: url("/js-assignment-4-html-me-something-Alejo8835/images/Jaffa.jpg");
+    min-height: 400px;
+    position: relative;
+    opacity: 0.65; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.big-image4 {
+    background-image: url("/js-assignment-4-html-me-something-Alejo8835/images/Dead\ Sea.jpg");
+    min-height: 400px;
+    position: relative;
+    opacity: 0.65; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#mainHeading {
+    color: red;
+    font-size: 18px;
+}
+
+.big-image5 {
+    background-image: url("/js-assignment-4-html-me-something-Alejo8835/images/Wedding.jpg");
+    min-height: 400px;
+    position: relative;
+    opacity: 0.65; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.funParagraph {
+    color: rgb(12, 80, 12);
+}
+
+.align-text {
+    text-align: center;
+    font: 400 15px/1.8 "lato", sans-serif;
+}
